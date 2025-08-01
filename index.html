@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+	  <!-- Owl Carousel CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
     <title>MN | Consultores Estadísticos</title>
 	<link rel="icon" href="images/icono_laptop.png" type="image/x-icon">
     <meta charset="utf-8">
@@ -458,6 +462,28 @@
   <script src="js/scrollax.min.js"></script>
   
   <script src="js/main.js"></script>
-    
+
+		<!-- jQuery (requerido por Owl Carousel) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Owl Carousel JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<!-- Inicialización del carrusel -->
+<script>
+  $(document).ready(function(){
+    $('.carousel-testimony').owlCarousel({
+      center: true,
+      loop: true,
+      items: 1,
+      margin: 30,
+      nav: false,
+      dots: true,
+      autoplay: true,
+      autoplayTimeout: 5000
+    });
+  });
+</script>
+
   </body>
 </html>
